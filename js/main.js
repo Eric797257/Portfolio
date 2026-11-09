@@ -232,9 +232,6 @@ document.addEventListener("DOMContentLoaded", () => {
                      ${techTags}
                 </ul>
                 <div class="project-links">
-                    <a href="${project.demoUrl}" target="_blank" rel="noopener noreferrer" class="project-link" aria-label="Live Demo for ${project.title}">
-                        <span>Live Demo</span> &rarr;
-                    </a>
                     <a href="${project.sourceUrl}" target="_blank" rel="noopener noreferrer" class="project-link" aria-label="Source Code for ${project.title}">
                         <span>GitHub</span>
                     </a>
